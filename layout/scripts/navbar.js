@@ -7,12 +7,9 @@ document.addEventListener('DOMContentLoaded', function () {
     var listItem = document.createElement('ul');
     listItem.className = 'clear mainav-inline';
     listItem.innerHTML = `
-      <li class="${currentPage === 'index.html' ? 'active' : ''}"><a href="index.html">Home</a></li>
-      <li class="${currentPage === 'visita.html' ? 'active' : ''}"><a href="visita.html">Come Visitare</a></li>
-      <li class="${currentPage === 'eventi.html' ? 'active' : ''}"><a href="eventi.html">Eventi</a></li>
-      <li class="${currentPage === 'educazione.html' ? 'active' : ''}"><a href="educazione.html">Educazione</a></li>
-      <li class="${currentPage === 'mafchild.html' ? 'active' : ''}"><a href="mafchild.html">MAF CHILD</a></li>
-      <li class="${currentPage === 'podcast.html' ? 'active' : ''}"><a href="podcast.html">Podcast</a></li>
+      <li class="${currentPage === 'sala_uno.html' ? 'active' : ''}"><a href="sala_uno.html">Sala uno</a></li>
+      <li class="${currentPage === 'sala_due.html' ? 'active' : ''}"><a href="sala_due.html">Sala due</a></li>
+      <li class="${currentPage === 'sala_tre.html' ? 'active' : ''}"><a href="sala_tre.html">Sala tre</a></li>
     `;
     navbarContainer.appendChild(listItem);
 
