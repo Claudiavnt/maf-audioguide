@@ -550,7 +550,10 @@
 .card {
 	border: 0px;
 	border-radius: 0;
+	background-color: transparent;
 }
+
+
 
 .card-img,
 .card-img-top {
