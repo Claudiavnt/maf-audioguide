@@ -609,18 +609,26 @@
 }
 
 .card-hover .reveal {
-	visibility: hidden;
-	opacity: 0;
-	height: 0;
-	padding: 0;
 	position: absolute;
-	top: 0;
-	width: 100%;
-	background-color: black;
-	color: white;
+	bottom: 3%;
+	right: 3%;
+	width: 25%;
+	background-color: white;
+	border-radius: 50%;
+	color: #561A18;
+	height: 20%;
+	visibility: visible;
+	opacity: 0.5;
+	transition: opacity 1s ease;
 }
 
-.card-hover:hover .reveal {
+.sala p {
+	line-height: 125%;
+	font-size: 1.5rem;
+	text-align: center;
+}
+
+.card-hover .sala {
 	height: auto;
 	visibility: visible;
 	opacity: 0.5;
@@ -629,6 +637,7 @@
 	top: 0;
 	background-color: black;
 	color: white;
+	width: 100%;
 }
 
 @media (max-width: 767px) {
@@ -1736,7 +1745,7 @@ img {
 	bottom: 20px;
 	/* Puoi regolare la distanza dal fondo dell'immagine */
 	left: 50%;
-	transform: translateX(-50%);
+	transform: translateX(-50%) translateY(50%);
 	padding: 10px;
 	border-radius: 5px;
 }
