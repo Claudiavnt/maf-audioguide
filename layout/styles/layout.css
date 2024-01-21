@@ -612,13 +612,12 @@
 	position: absolute;
 	bottom: 3%;
 	right: 3%;
-	width: 25%;
+	width: 20%;
 	background-color: white;
 	border-radius: 50%;
 	color: #561A18;
-	height: 20%;
+	height: 15%;
 	visibility: visible;
-	opacity: 0.5;
 	transition: opacity 1s ease;
 }
 
